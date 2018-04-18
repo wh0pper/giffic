@@ -3,5 +3,25 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .next-node {
-  margin: 2em auto;
+  display: block;
+  margin: 10em 10em;
+  h1 {
+    text-align: center;
+  }
+  button {
+    display: block;
+    margin: 0 auto;
+  }
+  #node-button {
+    max-height: 500px;
+  }
+  .button-text {
+    font-size: 1.8em;
+  }
+  .current-sentence {
+    font-size: 5em;
+  }
+  #selections {
+    margin-top: 2em;
+  }
 }

@@ -1,5 +1,10 @@
 @import "bootstrap";
+@import "https://fonts.googleapis.com/css?family=Nanum+Brush+Script";
 @import "nodes";
+
+body {
+  font-family: "Nanum Brush Script";
+}
 
 img.gif {
   display: block;

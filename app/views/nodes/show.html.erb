@@ -1,11 +1,14 @@
 <div class="next-node">
-  <h1>Once upon a time...</h1>
-  <div class="row">
+  <h1 class="current-sentence">Once upon a time...</h1>
+  <div class="row" id="selections">
     <% @first_nodes.each do |node| %>
-      <button class="btn btn-secondary" id="node-button"><%= node.sentence %></button> &emsp;
+        <button class="btn btn-secondary btn-lg" id="node-button">
+          <span class="button-text"><%= node.sentence %></span>
+        </button>
     <% end %>
   </div>
 </div>
+
 <!--<div class="card">-->
 <!--  <p class="lead"><%#= @first_node.sentence %></p>-->
 <!--  <img class="gif" src="<%#= @first_node.gif_url %>">-->

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_04_18_164022) do
+ActiveRecord::Schema.define(version: 2018_04_18_184127) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -22,6 +22,11 @@ ActiveRecord::Schema.define(version: 2018_04_18_164022) do
     t.string "signature"
     t.string "gif_url"
     t.string "next_nodes_ids"
+  end
+
+  create_table "stories_tables", force: :cascade do |t|
+    t.string "node_ids"
+    t.string "title"
   end
 
 end
