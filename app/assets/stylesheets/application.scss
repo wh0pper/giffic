@@ -1,1 +1,15 @@
 @import "bootstrap";
+@import "nodes";
+
+img.gif {
+  display: block;
+  margin: 10% auto;
+  width: 50%;
+}
+
+.card {
+  p.lead {
+    text-align: center;
+    font-size: 1.6em;
+  }
+}

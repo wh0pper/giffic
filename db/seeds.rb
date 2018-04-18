@@ -7,7 +7,8 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 node_list = [
-    [ "Once upon a time ", "rj", "https://media.giphy.com/media/xSlBkf2Yk1uV2/giphy.gif" ]
+    [ "...there lived a young boy in a secluded forest village.", "rj", "https://media.giphy.com/media/xSlBkf2Yk1uV2/giphy.gif" ],
+    [ "...on the cusp of fall, a young girl made a life-changing discovery.", "rj", "https://media.giphy.com/media/VXLQ1gZKPfhqU/giphy.gif" ]
 ]
 
 node_list.each do |sentence, signature, gif_url|
