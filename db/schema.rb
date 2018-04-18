@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_04_18_184127) do
+ActiveRecord::Schema.define(version: 2018_04_18_215505) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -24,8 +24,14 @@ ActiveRecord::Schema.define(version: 2018_04_18_184127) do
     t.string "next_nodes_ids"
   end
 
-  create_table "stories_tables", force: :cascade do |t|
-    t.string "node_ids"
+  create_table "nodes_stories", id: false, force: :cascade do |t|
+    t.bigint "node_id"
+    t.bigint "story_id"
+    t.index ["node_id"], name: "index_nodes_stories_on_node_id"
+    t.index ["story_id"], name: "index_nodes_stories_on_story_id"
+  end
+
+  create_table "stories", force: :cascade do |t|
     t.string "title"
   end
 

@@ -1,12 +1,14 @@
 <div class="container">
-  <% if @selected_node != nil%>
-    <br><br>
+  <br><br>
+  <% @previous_nodes.each do |previous_node| %>
     <div class="card">
-      <p class="lead"><%= @selected_node.sentence %></p>
-      <img class="gif" src="<%= @selected_node.gif_url %>">
+      <p class="lead"><%= previous_node.sentence %></p>
+      <img class="gif" src="<%= previous_node.gif_url %>">
     </div>
+  <% end %>
 
-    <% if @selected_node.next_nodes_ids == nil %>
+  <% if @previous_nodes.length > 0 %>
+    <% if @previous_nodes[-1].next_nodes_ids == nil %>
       <div class="card">
         <h4>You've reached the end of what's written.</h4>
         <%= form_for Node.new do |f| %>
