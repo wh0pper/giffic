@@ -1,16 +1,38 @@
-<div class="next-node">
-  <h1 class="current-sentence">Once upon a time...</h1>
-  <div class="row" id="selections">
-    <% @first_nodes.each do |node| %>
-        <button class="btn btn-secondary btn-lg" id="node-button">
-          <span class="button-text"><%= node.sentence %></span>
-        </button>
-    <% end %>
-  </div>
-</div>
+<div class="container">
+  <% if @selected_node != nil%>
+    <br><br>
+    <div class="card">
+      <p class="lead"><%= @selected_node.sentence %></p>
+      <img class="gif" src="<%= @selected_node.gif_url %>">
+    </div>
 
-<!--<div class="card">-->
-<!--  <p class="lead"><%#= @first_node.sentence %></p>-->
-<!--  <img class="gif" src="<%#= @first_node.gif_url %>">-->
-<!--</div>-->
+    <% if @selected_node.next_nodes_ids == nil %>
+      <div class="card">
+        <h4>You've reached the end of what's written.</h4>
+        <%= form_for Node.new do |f| %>
+          <%#= f.label :sentence, "Keep the story going:" %>
+          <%= f.text_field :sentence, class: "form-control", placeholder: "Add next passage here" %>
+          <br>
+          <%#= f.label :signature, "Leave your initials:" %>
+          <%= f.text_field :signature, class: "form-control", placeholder: "Enter initials here" %>
+          <br>
+          <%= f.submit "Add to story", class: "btn btn-success" %>
+        <% end %>
+      </div>
+    <% end %>
+  <% else %>
+      <div class="next-node">
+        <h1 class="current-sentence">Once upon a time...</h1>
+        <div class="row" id="selections">
+          <% @next_nodes.each do |node| %>
+            <%= form_for node do |f| %>
+              <%= f.hidden_field :next_nodes_ids, :value => node.next_nodes_ids %>
+              <%= f.submit node.sentence, class: "btn btn-secondary btn-lg node-button" %>
+            <% end %>
+          <% end %>
+        </div>
+      </div>
+    <% end %>
+
+</div>
 

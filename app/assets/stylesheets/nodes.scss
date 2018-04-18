@@ -8,12 +8,12 @@
   h1 {
     text-align: center;
   }
-  button {
+  .btn {
     display: block;
     margin: 0 auto;
   }
-  #node-button {
-    max-height: 500px;
+  .node-button {
+    margin: 0 auto;
   }
   .button-text {
     font-size: 1.8em;
@@ -24,4 +24,8 @@
   #selections {
     margin-top: 2em;
   }
+}
+
+.edit_node {
+  margin: 0 auto;
 }
