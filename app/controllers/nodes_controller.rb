@@ -17,7 +17,7 @@ class NodesController < ApplicationController
   def create
     @story = Story.first
     new_node_params = params[:node]
-    new_node = Node.create(sentence: new_node_params[:sentence], signature: new_node_params[:signature])
+    new_node = Node.create(sentence: new_node_params[:sentence], signature: new_node_params[:signature], gif_url: new_node_params[:gif_url])
     @story.nodes.push(new_node)
     @previous_nodes = @story.nodes
     render :show
