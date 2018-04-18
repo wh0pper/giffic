@@ -4,11 +4,7 @@ class NodesController < ApplicationController
     render :index
   end
 
-  def show
-    @story = Story.first
-    @previous_nodes = @story.nodes
-    @next_nodes = Node.last(2)
-  end
+
 
   def new
 

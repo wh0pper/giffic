@@ -13,7 +13,7 @@
       <div class="card">
         <div class="card-body">
           <h4>You've reached the end of what's written.</h4>
-          <%= form_for Node.new do |f| %>
+          <%= form_for @new_node do |f| %>
             <%#= f.label :sentence, "Keep the story going:" %>
             <%= f.text_field :sentence, class: "form-control", placeholder: "Add next passage here" %>
             <br>

@@ -1,0 +1,8 @@
+<div class="container">
+  <h1 class="display-1">Giffic</h1>
+  <hr>
+  <h4>Welcome...</h4>
+<% @stories.each do |story| %>
+  <%= link_to story.title, story_path(story) %>
+<% end %>
+</div>
