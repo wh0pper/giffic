@@ -31,3 +31,25 @@ img.gif {
   font-size: 0.6em;
   color: #BBBBBB;
 }
+
+.begin-butt {
+  display: block;
+  margin: 0 auto;
+  .button-text {
+    font-size: 1.5em;
+    color: white;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+}
+
+.welcome-page {
+  h2 {
+    text-align: center;
+  }
+
+  .welcome-text {
+    font-size: 1.2em;
+  }
+}
