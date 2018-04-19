@@ -1,5 +1,6 @@
 @import "bootstrap";
 @import "https://fonts.googleapis.com/css?family=Neucha";
+@import "https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700";
 @import "nodes";
 
 body {
@@ -9,7 +10,7 @@ body {
 .navbar {
   .nav-logo, a {
     display: block;
-    margin: 0 auto;
+    margin: 1em auto;
     height: 100px;
   }
 }
@@ -33,6 +34,7 @@ img.gif {
 }
 
 .begin-butt {
+  width: 30%;
   display: block;
   margin: 0 auto;
   .button-text {
@@ -45,11 +47,17 @@ img.gif {
 }
 
 .welcome-page {
-  h2 {
+  font-family: "Dosis";
+  .header {
+    margin-top: 2em;
     text-align: center;
   }
 
   .welcome-text {
     font-size: 1.2em;
+  }
+
+  .card {
+    margin: 7.5em auto;
   }
 }
