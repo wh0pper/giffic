@@ -4,7 +4,7 @@
 
 .next-node {
   display: block;
-  margin: 10em 10em;
+  margin: 10em auto;
   h1 {
     text-align: center;
   }
@@ -21,9 +21,11 @@
   .current-sentence {
     font-size: 5em;
   }
-  #selections {
-    margin-top: 2em;
-  }
+}
+
+#selections {
+  margin: 0 auto;
+  width: 1000px;
 }
 
 .edit_node {
