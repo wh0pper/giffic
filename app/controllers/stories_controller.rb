@@ -30,6 +30,17 @@ class StoriesController < ApplicationController
   end
 
   def update
-
+    binding.pry
+    @story = Story.find(params[:id])
+    next_nodes_ids = params.dig(:node, :next_nodes_ids)
+    selected_sentence = params[:commit]
+    selected_node = Node.where(:sentence => selected_sentence)
+    @story.nodes.push(selected_node)
+    @next_nodes = []
+    next_nodes_ids.split(',').each do |id|
+      @next_nodes << Node.find(id)
+    end
+    @previous_nodes = @story.nodes
+    redirect_to action: "show"
   end
 end
