@@ -14,3 +14,11 @@ node_list = [
 node_list.each do |sentence, signature, gif_url|
   Node.create( sentence: sentence, signature: signature, gif_url: gif_url )
 end
+
+story_list = [
+    [ "2 Paths" ]
+]
+
+story_list.each do |title|
+  Story.create( title: title)
+end

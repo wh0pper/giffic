@@ -16,8 +16,6 @@ ActiveRecord::Schema.define(version: 2018_04_18_215505) do
   enable_extension "plpgsql"
 
   create_table "nodes", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
     t.string "sentence"
     t.string "signature"
     t.string "gif_url"
