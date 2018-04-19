@@ -1,16 +1,21 @@
 <div class="container">
   <br><br>
-  <div class="card">
+  <div class="card main-card">
+    <br>
     <% @previous_nodes.each do |previous_node| %>
-      <p class="lead"><%= previous_node.sentence %>
-        <span class="signature">-<%= previous_node.signature %></span></p>
-      <img class="gif" src="<%= previous_node.gif_url %>">
+      <div class="sentence-card">
+        <p class="lead sentence">
+          <%= previous_node.sentence %>
+          <span class="signature">-<%= previous_node.signature %></span>
+        </p>
+        <img class="gif" src="<%= previous_node.gif_url %>">
+      </div>
     <% end %>
   </div>
   <% if @previous_nodes.length > 0 %>
     <% if @previous_nodes[-1].next_nodes_ids == nil %>
       <br>
-      <div class="card">
+      <div class="card add-passage">
         <div class="card-body">
           <h4>You've reached the end of what's written.</h4>
           <%= form_for Node.new do |f| %>

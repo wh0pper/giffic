@@ -5,6 +5,7 @@
 
 body {
   font-family: "Neucha";
+  background-color: seashell;
 }
 
 .navbar {
@@ -15,10 +16,20 @@ body {
   }
 }
 
+.main-card {
+  background-color: snow;
+}
+
 img.gif {
+  width: 80%;
   display: block;
-  margin: 0 auto 3em auto;
-  width: 50%;
+  margin: 0 auto 1em auto;
+}
+
+.signature {
+  text-align: right;
+  font-size: 0.6em;
+  color: #BBBBBB;
 }
 
 .card {
@@ -26,11 +37,17 @@ img.gif {
     text-align: center;
     font-size: 1.6em;
   }
-}
 
-.signature {
-  font-size: 0.6em;
-  color: #BBBBBB;
+  .sentence-card {
+    display: block;
+    margin: 2em auto 0 auto;
+    width: 75%;
+    border-width: 3px;
+    border-style: wave;
+    .sentence {
+      margin-top: 1.2em;
+    }
+  }
 }
 
 .begin-butt {
@@ -60,4 +77,8 @@ img.gif {
   .card {
     margin: 7.5em auto;
   }
+}
+
+.add-passage {
+  margin-bottom: 2.5em;
 }
