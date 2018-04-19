@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f597aa43-eaf9-434d-b654-097dd736985b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/nodes_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/nodes_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/stories_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/stories_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/nodes/_node_buttons.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/nodes/_node_buttons.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/nodes/_node_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/nodes/_node_form.html.erb" afterDir="false" />
     </list>
@@ -20,23 +22,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5049234">
+    <splitter split-orientation="horizontal" split-proportion="0.46224877">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="nodes_controller.rb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/controllers/nodes_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="418">
-                  <caret line="18" column="77" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="77" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_story_form.html.erb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/views/stories/_story_form.html.erb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="198">
-                  <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+                <state relative-caret-position="330">
+                  <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
                 </state>
               </provider>
             </entry>
@@ -44,8 +37,8 @@
           <file leaf-file-name="stories_controller.rb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/controllers/stories_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="924">
-                  <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+                <state relative-caret-position="164">
+                  <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -77,20 +70,20 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_node_form.html.erb" pinned="false" current-in-tab="false">
+          <file leaf-file-name="_node_form.html.erb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/nodes/_node_form.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="396">
-                  <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+                <state relative-caret-position="110">
+                  <caret line="4" column="117" lean-forward="true" selection-start-line="4" selection-start-column="117" selection-end-line="4" selection-end-column="117" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_node_buttons.html.erb" pinned="false" current-in-tab="true">
+          <file leaf-file-name="_node_buttons.html.erb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/nodes/_node_buttons.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="88">
-                  <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+                <state relative-caret-position="308">
+                  <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
                 </state>
               </provider>
             </entry>
@@ -117,20 +110,20 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="true">
+          <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/stories/show.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="352">
+                <state relative-caret-position="374">
                   <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_node_form.html.erb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/views/nodes/_node_form.html.erb">
+          <file leaf-file-name="_node_buttons.html.erb" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/views/nodes/_node_buttons.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="66">
-                  <caret line="3" column="59" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
+                <state relative-caret-position="242">
+                  <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
                 </state>
               </provider>
             </entry>
@@ -200,11 +193,11 @@
         <option value="$PROJECT_DIR$/app/views/stories/_story_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/stories/index.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/nodes_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/stories_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/stories/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/nodes/_node_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/nodes/_node_buttons.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/stories_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/nodes_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/nodes/_node_form.html.erb" />
       </list>
     </option>
   </component>
@@ -221,7 +214,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="2129" />
+    <option name="width" value="2142" />
     <option name="height" value="1333" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -466,12 +459,12 @@
       <updated>1524066605049</updated>
       <workItem from="1524066610921" duration="18714000" />
       <workItem from="1524102859067" duration="9335000" />
-      <workItem from="1524151238051" duration="16900000" />
+      <workItem from="1524151238051" duration="19439000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44949000" />
+    <option name="totallyTimeSpent" value="47488000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -483,7 +476,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2129" height="1333" extended-state="0" />
+    <frame x="0" y="23" width="2142" height="1333" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32979593" />
@@ -492,7 +485,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32979593" />
       <window_info anchor="bottom" id="Run" order="8" />
       <window_info active="true" anchor="bottom" id="Terminal" order="2" sideWeight="0.49971116" visible="true" weight="0.32686085" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.12410158" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.123333335" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32928804" />
@@ -699,24 +692,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/stories/_story_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/stories_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/stories/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/stories/_story_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -727,24 +713,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/nodes/_node_buttons.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/nodes_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="18" column="77" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="77" />
+        <state relative-caret-position="330">
+          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/stories_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/nodes/_node_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/nodes/_node_buttons.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="110">
+          <caret line="4" column="117" lean-forward="true" selection-start-line="4" selection-start-column="117" selection-end-line="4" selection-end-column="117" />
         </state>
       </provider>
     </entry>

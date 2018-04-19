@@ -7,7 +7,6 @@ class StoriesController < ApplicationController
   def show
     @story = Story.find(params[:id])
     last_node = @story.nodes.last
-    # binding.pry
     unless last_node.nil?
       unless last_node.next_nodes_ids.nil?
         next_ids = last_node.next_nodes_ids.split(',')
@@ -25,12 +24,10 @@ class StoriesController < ApplicationController
     new_story = Story.create(:title => story_params[:title])
     new_story.nodes.push(Node.first)
     new_story.save
-    # binding.pry
-    redirect_to action: "show"
+    redirect_to action: "show", id: new_story.id
   end
 
   def update
-    binding.pry
     @story = Story.find(params[:id])
     next_nodes_ids = params.dig(:node, :next_nodes_ids)
     selected_sentence = params[:commit]
@@ -41,6 +38,6 @@ class StoriesController < ApplicationController
       @next_nodes << Node.find(id)
     end
     @previous_nodes = @story.nodes
-    redirect_to action: "show"
+    redirect_to action: "show", id: @story.id
   end
 end
