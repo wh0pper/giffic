@@ -1,8 +1,9 @@
 <div class="next-node">
 <!--  <h1 class="current-sentence">Once upon a time...</h1>-->
   <div class="row" id="selections">
+    <p><%= @story %></p>
     <% @next_nodes.each do |node| %>
-      <%= form_for node, :url => {:action => :update} do |f| %>
+      <%= form_for node, :url => {:action => :update, params: {story_id: @story.id}} do |f| %>
         <%= f.hidden_field :next_nodes_ids, :value => node.next_nodes_ids %>
         <%= f.submit node.sentence, class: "btn btn-secondary btn-lg node-button" %>
       <% end %>
