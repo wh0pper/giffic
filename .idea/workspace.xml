@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f597aa43-eaf9-434d-b654-097dd736985b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/stories.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/stories_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/nodes/_node_buttons.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/nodes/_node_form.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/stories/_story_form.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/stories/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/stories/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/nodes_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/nodes_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/nodes/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/nodes/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/stories_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/stories_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/stories/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/stories/index.html.erb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -43,7 +31,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_story_form.html.erb" pinned="false" current-in-tab="true">
+          <file leaf-file-name="_story_form.html.erb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/stories/_story_form.html.erb">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="198">
@@ -52,11 +40,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="stories_controller.rb" pinned="false" current-in-tab="false">
+          <file leaf-file-name="stories_controller.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/controllers/stories_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="220">
-                  <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+                <state relative-caret-position="330">
+                  <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
                 </state>
               </provider>
             </entry>
@@ -64,8 +52,8 @@
           <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/stories/index.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-16">
-                  <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+                <state relative-caret-position="88">
+                  <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
                 </state>
               </provider>
             </entry>
@@ -118,8 +106,8 @@
           <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/stories/show.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="528">
-                  <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+                <state relative-caret-position="418">
+                  <caret line="19" column="39" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="39" />
                 </state>
               </provider>
             </entry>
@@ -196,17 +184,17 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/nodes.scss" />
         <option value="$PROJECT_DIR$/app/views/nodes/_node_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/nodes/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/stories/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/stories.scss" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/nodes_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/stories_controller.rb" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/app/views/nodes/_node_buttons.html.erb" />
         <option value="$PROJECT_DIR$/app/views/stories/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/stories/_story_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/stories/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/stories_controller.rb" />
       </list>
     </option>
   </component>
@@ -468,12 +456,12 @@
       <updated>1524066605049</updated>
       <workItem from="1524066610921" duration="18714000" />
       <workItem from="1524102859067" duration="9335000" />
-      <workItem from="1524151238051" duration="10263000" />
+      <workItem from="1524151238051" duration="11282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38312000" />
+    <option name="totallyTimeSpent" value="39331000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -493,8 +481,8 @@
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32979593" />
       <window_info anchor="bottom" id="Run" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49971116" visible="true" weight="0.32686085" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.10711332" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" sideWeight="0.49971116" visible="true" weight="0.32686085" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.10711332" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32928804" />
@@ -645,13 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/stories/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/nodes/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -715,20 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/stories/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/stories_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/nodes_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -747,6 +714,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/stories/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/stories/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/stories_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
         </state>
       </provider>
     </entry>

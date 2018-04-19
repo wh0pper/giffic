@@ -7,9 +7,12 @@ class StoriesController < ApplicationController
   def show
     @story = Story.find(params[:id])
     last_node = @story.nodes.last
-    unless last_node.next_nodes_ids.nil?
-      next_ids = last_node.next_nodes_ids.split(',')
-      @next_nodes = [(Node.find(next_ids[0])), (Node.find(next_ids[1]))]
+    # binding.pry
+    unless last_node.nil?
+      unless last_node.next_nodes_ids.nil?
+        next_ids = last_node.next_nodes_ids.split(',')
+        @next_nodes = [(Node.find(next_ids[0])), (Node.find(next_ids[1]))]
+      end
     end
   end
 
@@ -18,7 +21,12 @@ class StoriesController < ApplicationController
   end
 
   def create
-
+    story_params = params[:story]
+    new_story = Story.create(:title => story_params[:title])
+    new_story.nodes.push(Node.first)
+    new_story.save
+    # binding.pry
+    redirect_to action: "show"
   end
 
   def update
