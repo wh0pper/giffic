@@ -33,14 +33,13 @@ node_list1 = [[
 # ]
 
 story_list = [
-    [ "2 Paths" ]
-    # [ "The Angry Platypus" ]
+    [ "Two Paths" ],
+    [ "The Angry Platypus" ]
 ]
 
 story_list.each do |title|
   Story.create(title: title)
 end
-
 
 
 node_list1.each do |sentence, signature, gif_url, next_nodes|
