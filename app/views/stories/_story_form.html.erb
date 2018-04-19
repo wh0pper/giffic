@@ -1,0 +1,11 @@
+<div class="card add-passage">
+  <div class="card-body">
+    <h4>Start from scratch.</h4>
+    <%= form_for Story.new do |f| %>
+      <%#= f.label :sentence, "Keep the story going:" %>
+      <%= f.text_field :title, class: "form-control", placeholder: "Title" %>
+      <br>
+      <%= f.submit "Create", class: "btn btn-success" %>
+    <% end %>
+  </div>
+</div>

@@ -1,0 +1,25 @@
+ <div class="stories_show">
+  <h1><%= @story.title %></h1>
+
+  <div class="container">
+    <br><br>
+    <div class="card main-card">
+      <br>
+      <% @story.nodes.each do |node| %>
+        <div class="sentence-card">
+          <p class="lead sentence">
+            <%= node.sentence %>
+            <span class="signature">-<%= node.signature %></span>
+          </p>
+          <img class="gif" src="<%= node.gif_url %>">
+        </div>
+      <% end %>
+    </div>
+    <br>
+      <% if @next_nodes == nil %>
+        <%= render "nodes/node_form" %>
+      <% else %>
+        <%= render "nodes/node_buttons" %>
+      <% end %>
+  </div>
+ </div>
